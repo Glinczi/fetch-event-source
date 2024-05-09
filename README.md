@@ -1,6 +1,7 @@
 # Fetch Event Source
 
-base 'https://github.com/Azure/fetch-event-source/fork', resolve IOSwebview unable to handle text/event-stream
+> base 'https://github.com/Azure/fetch-event-source/fork', resolve IOSwebview unable to handle text/event-stream
+
 This package provides a better API for making [Event Source requests](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events) - also known as server-sent events - with all the features available in the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API).
 
 The [default browser EventSource API](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) imposes several restrictions on the type of request you're allowed to make: the [only parameters](https://developer.mozilla.org/en-US/docs/Web/API/EventSource/EventSource#Parameters) you're allowed to pass in are the `url` and `withCredentials`, so:
